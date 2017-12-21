@@ -1,0 +1,67 @@
+body{
+	background-color:#eff2f7;
+}
+
+.header{
+	height:60px;
+	width:100%;
+	background-color:white;
+}
+
+.sidebar{
+	padding-left: 50px;
+	padding-top: 20px;
+	float:right;
+	position:absolute;
+	display:inline-block;
+}
+
+img {
+  float:left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+p{
+	  display: table-cell;
+	  height:135px;
+}
+
+li{
+	list-style:none;
+}
+
+.header input[type=text] {
+    padding: 6px;
+    border-color: black;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    width:600px;
+    margin-left: 100px;
+    border-radius: 7px;
+}
+
+.logo{
+	float: right;
+}
+
+.content{
+	float: left;
+	border-bottom:2px solid black;
+	width: 800px;
+}
+
+.likes{
+	float: right;
+}
+
+.comments{
+	margin-top:15px;
+	float: left;
+	width: 800px;
+}
+
+.me{
+	border-radius: 25px;
+}
